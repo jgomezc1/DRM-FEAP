@@ -4,5 +4,9 @@ propossed by Bielak et al (2003). The code computes effective forces consistent 
 proopagation analysis with the commercial code FEAP. The repo contains and example input file (IPIRO.inp) corresponding to a V-shaped canyon
 ubnder a vertically incident SV wave.
 
+## Authors
+Viviana Diaz-Velez, MsC Universidad EAFIT, Medellin-Colombia.
+Juan Gomez, Professor Universidad EAFIT, Medellin-Colombia.
+
 ## License
 This project is licensed under the MIT license.
