@@ -1,0 +1,40 @@
+FEAP * * Piro
+        1014045         253028              1              2              2              9
+ 
+ NOPRint
+ NOCOunt
+ 
+ MATErial,              1
+ SOLId
+ PLAN,STRA
+ ELAStic,ISOTropic    0.26667E+10    0.33333E+00
+ DENSity mass      1000.00000
+ !Blank
+ INCLude,NOD
+ INCLude,ELEM
+ INCLude,BOUND
+ !Blank
+ END Mesh
+ 
+ BATCh
+ OUTMesh
+ NOPRint
+ DT,,       0.001250
+ TRANsient EXPLicit
+ MASS,LUMP
+ FORM,ACCE
+ 
+ LOOP plot            200
+ LOOP time             40
+ 
+ TIME
+ MESH
+ FORM EXPLicit
+ 
+ NEXT time
+ DISP ALL
+ NEXT plot
+ END
+ 
+ INCLude,LOAD
+ STOP
